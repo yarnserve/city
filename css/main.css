@@ -57,6 +57,7 @@ img {
 
 .list li {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .list li .photo {
@@ -66,6 +67,17 @@ img {
 
 .list li .text {
     width: 600px;
+    color: #333;
+    padding: 10px 0 10px 0;
+}
+
+.list li .text h3 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.list li .text p {
+    font-size: 18px;
 }
 
 .copyright {
